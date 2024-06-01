@@ -837,7 +837,9 @@ input::placeholder {
     border-color: #4D5AE5;
 }
 
-
+.modal-input:focus-within+.modal-icon {
+    fill: #4d5ae5;
+}
 
 .modal-icon {
     position: absolute;
